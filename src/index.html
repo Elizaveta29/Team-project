@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IceCream</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="icon" href="./main-site-logo.png">
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <include src="./partials/header.html"></include>
+    </header>
+    <!-- MAIN SITE CONTENT -->
+    <main>
+      <!-- HERO -->
+      <section class="hero" id="main">
+        <include src="./partials/hero.html"></include>
+      </section>
+      <!-- PRODUCTS -->
+      <section class="products" id="products">
+        <include src="./partials/products.html"></include>
+      </section>
+      <!-- ABOUT -->
+      <section class="about" id="about">
+        <include src="./partials/about.html"></include>
+      </section>
+      <!-- ADVANTAGES -->
+      <section class="advantages" id="advantages">
+        <include src="./partials/advantages.html"></include>
+      </section>
+      <!-- GALLERY -->
+      <section class="gallery" id="gallery">
+        <include src="./partials/gallery.html"></include>
+      </section>
+      <!-- CUSTOMER REVIEWS -->
+      <section class="customer-reviews" id="customer-reviews">
+        <include src="./partials/customer-reviews.html"></include>
+      </section>
+      <!-- CONTACTS -->
+      <section class="contacts" id="contacts">
+        <include src="./partials/contacts.html"></include>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <include src="./partials/footer.html"></include>
+    </footer>
+    <!-- MOBILE MENU (mob & tablet) -->
+    <section class="mob-menu" id="mob-menu">
+      <include src="./partials/mob-menu.html"></include>
+    </section>
+    <!-- MODAL WINDOWS -->
+    <section class="modal-buy-now">
+      <include src="./partials/modal-buy-now.html"></include>
+    </section>
+    <section class="mob-locations-franchise">
+      <include src="./partials/modal-locations-franchaise.html"></include>
+    </section>
+    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+    <script src="./index.js"></script>
+  </body>
+</html>
